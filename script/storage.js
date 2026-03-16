@@ -2,26 +2,44 @@
 // Defaults
 // ========================================
 const DEFAULT_BOOKMARKS = [
-  { href: "https://stuffifound.pages.dev/", title: "StuffIFound" },
-  { href: "https://huggingface.co/spaces", title: "HuggingFace" },
-  { href: "https://youtube.com", title: "YouTube" },
-  { href: "https://drive.google.com/", title: "Drive" },
-  { href: "https://discord.com/app", title: "Discord" },
-  { href: "https://deepsite.hf.co/", title: "Deepsite" },
-  { href: "https://web.whatsapp.com/", title: "WhatsApp" },
-  { href: "https://www.reddit.com/", title: "Reddit" },
-  { href: "https://stuffifound.pages.dev/", title: "StuffIFound" },
-  { href: "https://pinterest.com/", title: "Pinterest" },
-  { href: "https://chat.deepseek.com/", title: "DeepSeek" },
-  { href: "https://grok.com/", title: "Grock" },
-  { href: "https://stuffifound.pages.dev/", title: "StuffIFound" },
-  { href: "https://alternativeto.net/", title: "AlternativeTo" },
-  { href: "https://stuffifound.pages.dev/", title: "StuffIFound" },
-  { href: "https://gemini.google.com/app", title: "Gemini" },
-  { href: "https://www.instagram.com/", title: "Instagram" },
-  { href: "https://stuffifound.pages.dev/", title: "StuffIFound" },
-  { href: "https://fmhy.net/", title: "FMHY" },
-  { href: "https://claude.ai/new", title: "Claude" }
+  [
+  {
+    "title": "YouTube",
+    "href": "https://youtube.com"
+  },
+  {
+    "title": "Reddit",
+    "href": "https://www.reddit.com/"
+  },
+  {
+    "title": "Messenger",
+    "href": "https://facebook.com/messages"
+  },
+  {
+    "title": "Gmail",
+    "href": "https://mail.google.com/mail/u/0/#inbox"
+  },
+  {
+    "title": "ProtonMail",
+    "href": "https://mail.proton.me/u/0/inbox"
+  },
+  {
+    "title": "Real Debrid",
+    "href": "https://real-debrid.com"
+  },
+  {
+    "title": "Instagram",
+    "href": "https://www.instagram.com/"
+  },
+  {
+    "title": "FMHY",
+    "href": "https://fmhy.net/"
+  },
+  {
+    "title": "Claude",
+    "href": "https://claude.ai/new"
+  }
+]
 ];
 
 const DEFAULT_USERNAME = "coffeenerd";
