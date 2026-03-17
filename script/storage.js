@@ -2,7 +2,6 @@
 // Defaults
 // ========================================
 const DEFAULT_BOOKMARKS = [
-  [
   {
     "title": "YouTube",
     "href": "https://youtube.com"
@@ -39,11 +38,10 @@ const DEFAULT_BOOKMARKS = [
     "title": "Claude",
     "href": "https://claude.ai/new"
   }
-]
 ];
 
-const DEFAULT_USERNAME = "coffeenerd";
-const DEFAULT_WEATHER_LOCATION = "Gurgaon";
+const DEFAULT_USERNAME = "[g]";
+const DEFAULT_WEATHER_LOCATION = "Melbourne";
 const DEFAULT_WEATHER_UNIT = "celsius";
 const DEFAULT_TIMEZONE = Intl.DateTimeFormat().resolvedOptions().timeZone || "UTC";
 const DEFAULT_GEMINI_MODEL = "gemini-2.5-flash-lite";
